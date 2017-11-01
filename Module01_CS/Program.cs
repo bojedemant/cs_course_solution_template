@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("boje");
+            System.Console.WriteLine("boje1");
             if (System.Diagnostics.Debugger.IsAttached)
             {
 
