@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            
+            DebugDemo();
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -13,7 +13,7 @@
                 System.Console.ReadKey();
             }
         }
-
+        
         static void DebugDemo() {
 
             int i = 10;
