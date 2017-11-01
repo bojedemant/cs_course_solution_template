@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("boje");
             if (System.Diagnostics.Debugger.IsAttached)
             {
+
                 System.Console.Write("Press any key to continue . . . ");
                 System.Console.ReadKey();
             }
