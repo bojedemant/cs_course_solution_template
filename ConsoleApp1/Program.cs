@@ -38,7 +38,7 @@ namespace ConsoleApp1
             System.Console.WriteLine(d1);
             System.Console.WriteLine(d1.ToString("dd-MM-yyyy"));
 
-
+            
 
             Person p;
             p.Ld = 1;
