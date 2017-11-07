@@ -19,11 +19,17 @@ namespace _05_opg1_metoder
             Udskriv();
             Udskriv("hej");
             double res3;
-            res3 = BeregnMoms(10000,35);
+            res3 = BeregnMoms(10000,0.35);
             Console.WriteLine(res3);
             res3 = BeregnMoms(1000);
             Console.WriteLine(res3);
 
+            int[] løn = { 10000, 5000, 30000 };
+            double gns = Gennemsnit(løn);
+            Console.WriteLine(gns);
+
+            Udskriv();
+            
 
         }
 
@@ -52,7 +58,7 @@ namespace _05_opg1_metoder
  
          static double BeregnMoms(double beløb, double momsPct)
          {
-            return beløb * (momsPct / 100);
+            return beløb * momsPct ;
          }
 
         static double BeregnMoms(double beløb)
@@ -60,8 +66,16 @@ namespace _05_opg1_metoder
             return beløb * 0.25;
         }
          
-         //double Gennemsnit(int[] månedsløn){
+         static double Gennemsnit(int[] månedsløn){
+            double sum = 0;
+            for (int i = 0; i < månedsløn.Length; i++)
+            {
+                sum += månedsløn[i];
 
-         //}
+            }
+            return sum / månedsløn.Length;
+
+
+         }
     }
 }
