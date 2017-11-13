@@ -9,9 +9,12 @@ namespace ConsoleApp10
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            Trekant t1 = new Trekant(10,15);
+          //  t1.;
 
-            Console.WriteLine(Trekant.Areal(10,15));
+            //t1.Højde = 10;
+            Console.WriteLine(t1.Areal);
         }
      }
 
