@@ -29,7 +29,7 @@ namespace ConsoleApp9
 
         public Vare(string navn, double pris)
         {
-            this.Navn = Navn;
+            this.Navn = navn;
             this.Pris = pris;
         }
 
