@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp9", "ConsoleApp9\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trekant", "ConsoleApp10\Trekant.csproj", "{40DFE982-EE5F-4A45-A310-B669E29CC48C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul 07  opg 5 static method", "modul 07  opg 5 static method\modul 07  opg 5 static method.csproj", "{54640984-E23E-450D-88C2-0D911F1BFF61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{40DFE982-EE5F-4A45-A310-B669E29CC48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40DFE982-EE5F-4A45-A310-B669E29CC48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40DFE982-EE5F-4A45-A310-B669E29CC48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54640984-E23E-450D-88C2-0D911F1BFF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54640984-E23E-450D-88C2-0D911F1BFF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54640984-E23E-450D-88C2-0D911F1BFF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54640984-E23E-450D-88C2-0D911F1BFF61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +213,7 @@ Global
 		{26914CAD-5319-41DF-B18D-88884E0D4A73} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{73EC74C1-CA38-46DD-93CB-A79696A1D5EA} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{40DFE982-EE5F-4A45-A310-B669E29CC48C} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{54640984-E23E-450D-88C2-0D911F1BFF61} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}

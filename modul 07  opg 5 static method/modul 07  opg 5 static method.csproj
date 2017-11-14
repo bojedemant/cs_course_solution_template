@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76322B76-8542-4732-B944-23F75E811409}</ProjectGuid>
+    <ProjectGuid>{54640984-E23E-450D-88C2-0D911F1BFF61}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Module07_Properties</RootNamespace>
-    <AssemblyName>Module07_Properties</AssemblyName>
+    <RootNamespace>modul_07__opg_5_static_method</RootNamespace>
+    <AssemblyName>modul 07  opg 5 static method</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Demo\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
