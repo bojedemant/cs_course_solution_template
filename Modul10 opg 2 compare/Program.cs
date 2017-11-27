@@ -22,7 +22,7 @@ namespace Modul10_opg_2_compare
         }
     }
 
-    class Hund : ICompareable
+    class Hund : IComparable
     {
         public string Navn { get; set; }
             
