@@ -8,7 +8,8 @@ namespace Modul12_opg1_Delegates
 {
     class Program
     {
-        public delegate int BeregnDelegate(int a, int b);  //oprettelse af delegate (mulighed for at kalde ekstern funktion)
+        //public delegate int BeregnDelegate(int a, int b);  //oprettelse af delegate (mulighed for at kalde ekstern funktion)
+        
         static void Main(string[] args)
         {
             int res = Beregner(1, 2, Plus);
@@ -20,7 +21,9 @@ namespace Modul12_opg1_Delegates
 
         
 
-        public static int Beregner(int a, int b, BeregnDelegate funktion)   // opret funktion som kalder fuktioner af den type der er beskrevet i delegatereklæringen. funktionsnavnet overføres ved kald og compiler finde funktion i liste af muligheder
+        //public static int Beregner(int a, int b, BeregnDelegate funktion)   // opret funktion som kalder fuktioner af den type der er beskrevet i delegatereklæringen. funktionsnavnet overføres ved kald og compiler finde funktion i liste af muligheder
+        //udkommenteret ovenfor er 'gammel' metode hører sammen med udkommenteret delegate linie
+        public static int Beregner(int a,int b, Func<int ,int, int> funktion) 
         {
             return funktion(a, b);
         }
