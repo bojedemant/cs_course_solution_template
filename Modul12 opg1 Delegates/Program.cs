@@ -16,6 +16,7 @@ namespace Modul12_opg1_Delegates
             res = Beregner(4, 2, Minus);
             res = Beregner(2, 2, Gange);
             res = Beregner(10, 2, Divider);
+            res = Beregner(5, 5, (x, y) => x * y);  //brug af anonym metode  ... metoden (beregningen) er inkluderet i kaldet. gør det samme som de ovenstående. => er lamda operator.
          //   res = Beregner(10, 2, Sivider);
         }
 
