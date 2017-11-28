@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11 opgave2 collection"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul11 opgave3 generisk klasse", "modul11 opgave3 generisk klasse\modul11 opgave3 generisk klasse.csproj", "{27067138-5AE4-45B0-BA7F-D483EB05B8E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul12 opg1 Delegates", "Modul12 opg1 Delegates\Modul12 opg1 Delegates.csproj", "{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{27067138-5AE4-45B0-BA7F-D483EB05B8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27067138-5AE4-45B0-BA7F-D483EB05B8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27067138-5AE4-45B0-BA7F-D483EB05B8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -287,6 +293,7 @@ Global
 		{ABC495E4-3183-41FB-BFA8-1596A2C03002} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{136A5667-88E8-4A78-BBA3-18AF1B5E0682} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{27067138-5AE4-45B0-BA7F-D483EB05B8E3} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{22BA4BE0-5BF4-48A2-ACD8-92FE7BE84D6A} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
